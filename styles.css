@@ -29,7 +29,7 @@ section{
   background-position: center;
   background-attachment: fixed;
   background-size:cover;
-  /* overflow-x: visible; */
+  /* overflow-x: scroll; */
 }
 
 .penampung{
@@ -46,7 +46,7 @@ section{
   transform: translate(-50%,-50%);
   z-index: 100;
   overflow-y: scroll;
-  /* overflow-x: visible; */
+  overflow-x: scroll;
 }
 
 .penampung::-webkit-scrollbar{
@@ -78,7 +78,7 @@ section{
   /* height: 450px; */
   /* padding-bottom: 100px; */
   overflow-y: scroll;
-  /* overflow-x: visible; */
+  overflow-x: scroll;
 }
 
 #div1::-webkit-scrollbar{
@@ -115,8 +115,8 @@ pre{
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   overflow-y: scroll;
-  /* overflow-x: visible;
-  z-index: 2; */
+  overflow-x: scroll;
+  /* z-index: 2; */
 }
 
 pre::-webkit-scrollbar{
@@ -240,6 +240,7 @@ section .set div:nth-child(8){
 }
 
 @media only screen and (max-width:600px) {
-  /* section{width: 100%;} */
-  section {width: 100%;}
+  /* section {padding-right: 20px; padding-bottom: 20px;} */
+  /* .penampung{padding-top: -20px;} */
+  pre{font-size: 18px;}
 }
